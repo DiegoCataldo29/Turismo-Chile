@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo en Chile - Guía de Playas</title>
+    <!-- Estilos de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cuerpo.css">
+</head>
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="header">
+        <h1>Destinos Turísticos de Chile</h1>
+        <p>Los destinos mas recomendados de Chile para turistas</p>
+    </header>
+
+    <!-- CONTENEDOR EN GRID -->
+    <main class="grid-container">
+
+        <!-- TARJETA 1: Ramuntcho -->
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <!-- FRENTE -->
+                <div class="card-front">
+                    <div class="img-container">
+                        <img src="Fotos/Ramuntcho.png" alt="Ramuntcho">
+                    </div>
+                    <div class="text-content">
+                        <h2>Ramuntcho</h2>
+                        <p>Para conectar con la naturaleza.</p>
+                        <p class="dato-rapido"><strong>Ubicación:</strong> Región del Biobío</p>
+                        <button class="btn-mas-info">Más Información</button>
+                    </div>
+                </div>
+                <!-- REVERSO -->
+                <div class="card-back">
+                    <h3>Ramuntcho</h3>
+                    <hr>
+                    <p><strong>Apta para el baño</strong></p>
+                    <p><strong>Detalles del entorno:</strong> Hermosa playa escondida rodeada de acantilados imponentes y exuberante vegetación nativa. Sus aguas suelen ser muy calmas.</p>
+                    <p><strong>Acceso:</strong> Requiere caminata por un sendero ecológico desde el Santuario de la Naturaleza.</p>
+                    <p><strong>Actividades:</strong> Caminatas por senderos ecológicos, fotografía de paisajes, natación cautelosa y avistamiento de aves marinas.</p>
+                    <button class="btn-volver">Volver al frente</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- TARJETA 2: Bahía Inglesa -->
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <!-- FRENTE -->
+                <div class="card-front">
+                    <div class="img-container">
+                        <img src="Fotos/Bahia Inglesa.png" alt="Bahía Inglesa">
+                    </div>
+                    <div class="text-content">
+                        <h2>Bahía Inglesa</h2>
+                        <p>Para disfrutar de aguas turquesas y actividades náuticas.</p>
+                        <p class="dato-rapido"><strong>Ubicación:</strong> Región de Atacama</p>
+                        <button class="btn-mas-info">Más Información</button>
+                    </div>
+                </div>
+                <!-- REVERSO -->
+                <div class="card-back">
+                    <h3>Bahía Inglesa</h3>
+                    <hr>
+                    <p><strong>Apta para el baño</strong> </p>
+                    <p><strong>Detalles del entorno:</strong> Considerada una de las mejores playas de Chile por sus arenas blancas y sus aguas cristalinas de tonalidades turquesas.</p>
+                    <p><strong>Acceso:</strong> Ubicada a solo 6 km de Caldera con accesos completamente pavimentados.</p>
+                    <p><strong>Actividades:</strong> Ideal para practicar kayak, sup board, buceo recreativo, natación y paseos en lancha.</p>
+                    <button class="btn-volver">Volver al frente</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- TARJETA 3: Totoralillo -->
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <!-- FRENTE -->
+                <div class="card-front">
+                    <div class="img-container">
+                        <img src="Fotos/Totoralillo.png" alt="Totoralillo">
+                    </div>
+                    <div class="text-content">
+                        <h2>Totoralillo</h2>
+                        <p>Para combinar paisajes costeros y aventura.</p>
+                        <p class="dato-rapido"><strong>Ubicación:</strong> Región de Coquimbo</p>
+                        <button class="btn-mas-info">Más Información</button>
+                    </div>
+                </div>
+                <!-- REVERSO -->
+                <div class="card-back">
+                    <h3>Totoralillo</h3>
+                    <hr>
+                    <p><strong>Parcialmente apta para el baño (ya que cuenta con un sector habilitado)</strong></p>
+                    <p><strong>Detalles del entorno:</strong> Destaca por su península rocosa que divide la costa en dos hermosas playas de arena clara.</p>
+                    <p><strong>Acceso:</strong> Se encuentra a 12 km al sur de Coquimbo por la Ruta 5 Norte.</p>
+                    <p><strong>Actividades:</strong> Uno de los puntos principales de la región para la práctica de surf, bodyboard y pesca deportiva.</p>
+                    <button class="btn-volver">Volver al frente</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- TARJETA 4: Pingueral -->
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <!-- FRENTE -->
+                <div class="card-front">
+                    <div class="img-container">
+                        <img src="Fotos/Pingueral.png" alt="Pingueral">
+                    </div>
+                    <div class="text-content">
+                        <h2>Pingueral</h2>
+                        <p>Para descansar y disfrutar de un entorno costero.</p>
+                        <p class="dato-rapido"><strong>Ubicación:</strong> Región del Biobío</p>
+                        <button class="btn-mas-info">Más Información</button>
+                    </div>
+                </div>
+                <!-- REVERSO -->
+                <div class="card-back">
+                    <h3>Pingueral</h3>
+                    <hr>
+                    <p><strong>NO apta para el baño (mar abierto y oleaje fuerte)</strong></p>
+                    <p><strong>Detalles del entorno:</strong> Extensa playa abierta que colinda con un estero y un hermoso entorno residencial de veraneo.</p>
+                    <p><strong>Acceso:</strong> Ubicada a 15 minutos del centro de Tomé por ruta pavimentada.</p>
+                    <p><strong>Actividades:</strong> Excelente para caminatas familiares por la orilla, descanso, fotografía y deportes en la zona del río/laguna.</p>
+                    <button class="btn-volver">Volver al frente</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+                    
+                <!-- SECCIÓN DE VIDEO PROMOCIONAL LOCAL -->
+
+        <section class="video-container">
+                    <h2>Descubre las Maravillas de Chile</h2>
+                    <p>Acompáñanos a recorrer los mejores paisajes y costas de nuestro país.</p>
+                    <div class="video-wrapper">
+        <video controls preload="metadata">
+            <source src="Video.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+        </video>
+    </div>
+</section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2026 Guía Informativa de Turismo en Chile.</p>
+    </footer>
+
+    <script src="efectos.js"></script>
+</body>
+</html>
